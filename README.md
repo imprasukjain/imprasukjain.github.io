@@ -21,13 +21,13 @@ This is a simple blog web app developed using HTML, CSS, and Flask. The main fil
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/blog-web-app.git
+   git clone https://github.com/imprasukjain/imprasukjain.github.io.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd blog-web-app
+   cd web_app
    ```
 
 3. Install the dependencies:
@@ -68,7 +68,6 @@ The project has the following structure:
 
 - `app.py`: This is the main file that contains the Flask application logic.
 - `static/css/style.css`: CSS file for styling the web pages.
-- `static/images/avatar.png`: Default avatar image for user profiles.
 - `templates`: This directory contains the HTML templates for different web pages.
 - `README.md`: This file provides information about the project.
 
