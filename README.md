@@ -81,5 +81,5 @@ If you'd like to contribute to this project, you can follow these steps:
 4. Commit and push your changes to your forked repository.
 5. Submit a pull request to the original repository.
 
-## The app is still in development mode , I uploaded a pertial version of app
+## The app is still in development mode , I uploaded a partial version of app
 Complete app will be uploaded soon.
