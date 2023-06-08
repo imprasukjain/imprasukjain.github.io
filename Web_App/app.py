@@ -14,11 +14,15 @@ def hello_world():  # put application's code here
 def error():
     return render_template('Error.html',title='Error')
 
+@app.route('/Thanks')
+def Thanks():
+    return render_template('Thanks.html',title='Thanks')
+
 @app.route('/register',methods=['GET','POST'])
 def register():
     form=RegistrationForm()
     if form.validate_on_submit():
-        return redirect(url_for('hello_world'))
+        return redirect(url_for('Thanks'))
     return render_template('forms.html',title='Register',form=form)
 
 
@@ -26,4 +30,4 @@ def register():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='localhost',debug=True,port=5000)
