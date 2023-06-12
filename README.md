@@ -41,7 +41,7 @@ This repository has the following structure:
   |- __init__.py          # Register module initialization
   |- routes.py             # Routes for the register module
 |- __init__.py            # Application initialization
-|- run.py                 # Entry point to run the web app
+|- app.py                 # Entry point to run the web app
 |- requirements.txt       # List of dependencies
 |- README.md              # Project Readme file
 ```
