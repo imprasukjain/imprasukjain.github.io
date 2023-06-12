@@ -13,3 +13,12 @@ def register_page():
     if form.validate_on_submit():
         return redirect(url_for('register.Thanks'))
     return render_template('forms.html',title='Register',form=form)
+@register.route('/results',methods=['GET','POST'])
+def results():
+    form = ResultsForm()
+    if form.validate_on_submit():
+        name = form.name.data
+        marks = form.marks.data
+        status = "Pass" if marks >= 40 else "Fail"
+        return render_template('marks.html', title='Results',form = form, name=name, marks=marks, status=status)
+    return render_template('marks.html', title='Results', form=form)
