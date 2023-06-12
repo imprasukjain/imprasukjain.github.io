@@ -7,3 +7,8 @@ class RegistrationForm(FlaskForm):
     email=StringField('Email',validators=[DataRequired(),Email()], render_kw={"placeholder": "Enter Email"})
     Mobile = IntegerField('Mobile',validators=[DataRequired()], render_kw={"placeholder": "Enter Mobile Number"})
     submit=SubmitField('SUBMIT')
+    
+class ResultsForm(FlaskForm):
+    name=StringField('Name',validators=[DataRequired(),Length(min=2,max=20)],render_kw={"placeholder": "Enter Name"})
+    marks=IntegerField('Marks',validators=[DataRequired()],render_kw={"placeholder": "Enter Marks"})
+    submit=SubmitField('SUBMIT')
