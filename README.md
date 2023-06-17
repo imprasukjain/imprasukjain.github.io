@@ -76,3 +76,6 @@ To use the Flask Blog Web App, follow these steps:
 ## Contributing
 
 Contributions to this repository are always welcome. If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
+
+
+P.S. Ignore the __pycache__ and .iml files you can delete that from you local copy
