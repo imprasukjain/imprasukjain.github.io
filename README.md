@@ -13,7 +13,7 @@ This repository contains a Flask web application for a blog. The web app is buil
 
 ## Introduction
 
-The Flask Blog Web App is a simple blogging platform that allows users to read and publish blog posts. It provides an intuitive user interface for easy navigation and interaction. The web app is built using the Flask framework, which is a lightweight and flexible web framework for Python.
+The Flask Blog Web App is a simple blogging platform that allows users to read and publish blog posts. It provides an intuitive user interface for easy navigation and interaction. The web app is built using the Flask framework, which is a lightweight and flexible web framework for Python. I made this app just for fun and as a result many features which I developed never uploaded it.
 
 ## Features
 
