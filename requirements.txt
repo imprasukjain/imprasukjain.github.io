@@ -18,3 +18,6 @@ threadpoolctl==3.1.0
 unicorn==1.0.3
 Werkzeug==2.0.3
 gunicorn
+Flask-WTF==1.1.1
+email_validator
+WTForms==3.0.1
